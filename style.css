@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+};
+
+html body{
+    height:100%;
+    width:100%
+}
+
+#main{
+    background-color:white;
+    /* height:100%; */
+    width:100%;
+}
+
+#nav{
+    height:70px;
+    width:100%;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    padding: 0 30px;
+    gap:5%;
+}
+
+#nav i{
+    background-color:black;
+    color:white;
+    padding:10px;
+    border-radius:50%;
+}
+
+#center{
+    width:100%;
+    padding:20px 65px;
+    font-size:28px;
+    line-height:1.1;
+   
+}
+
+#center h1{
+    font-weight:400;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+#center-in{
+    padding:10px 65px;
+    line-height:32px;
+    font-weight:200;
+    display:flex;
+    justify-content: space-between;
+    font-weight:600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#right{
+    width:20%;
+    margin-top:4%;
+}
+.elem{
+
+    padding:8px 0;
+   border-top: 2px solid black;
+   display:flex;
+   justify-content:space-between;
+}
+
+.elem a {
+    color:black;
+    text-decoration:none;
+    
+}
+
+.elem i {
+    font-size:25px;
+    font-weight:500;
+    opacity:0;
+}
+
+.elem:hover{
+   background-color:rgb(244, 244, 243);
+  
+}
+.elem:hover i{
+    opacity:1;
+}
+.elem:hover a{
+    text-decoration:underline;
+}
+
+
+
+#footer{
+
+     height:30vh;
+    width:100%;
+    background-image:url(https://media.istockphoto.com/id/544123142/photo/happy-young-woman-in-black-jacket-and-straw-hat-posing.jpg?s=1024x1024&w=is&k=20&c=tkY3gr8wGBmRpDRFpH6p_fNcZWkr8Bl2C3YynDJQva0=);
+    background-size:cover;
+    background-position:0% 40%;
+}
