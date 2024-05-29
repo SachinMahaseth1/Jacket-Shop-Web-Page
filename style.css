@@ -103,7 +103,7 @@ html body{
     background-position:0% 40%;
 }
 
-@media (max-width:600px) {
+@media (max-width:500px) {
     
     #nav{
         height:8vh;
